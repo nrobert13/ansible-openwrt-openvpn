@@ -1,0 +1,14 @@
+---
+galaxy_info:
+  author: Robert Nemeti
+  description: configure openvpn on openwrt system.
+  license: BSD
+  min_ansible_version: 1.7
+  platforms: []
+  # - Openwrt
+  #   versions:
+  #   - 14.07
+  categories:
+    - openvpn
+dependencies:
+  - { role: openwrt-uci }
